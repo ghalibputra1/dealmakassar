@@ -1,0 +1,30 @@
+.flat-slider .ui-corner-all {
+  border-radius: 0;
+}
+
+.flat-slider .ui-slider {
+  -webkit-appearance:none;
+  height: 6px;
+  background: #f6b3a9;
+  border-radius: 7px;
+}
+
+.flat-slider .ui-slider .ui-slider-handle{
+  margin-top: -4px;
+  width: 15px;
+  height: 15px;
+  background: #ff395c;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.flat-slider .ui-slider .ui-slider-handle:hover {
+  opacity: .8;
+}
+
+.flat-slider .ui-slider .ui-slider-range {
+  border: 0;
+  border-radius: 7;
+  background: #000;
+}
